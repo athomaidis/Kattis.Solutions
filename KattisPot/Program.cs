@@ -1,7 +1,7 @@
 ﻿using System;
 using static Kattis.Shared.KattisIO;
 
-namespace KattisPot
+namespace Kattis.Pot
 {
     class Program
     {
