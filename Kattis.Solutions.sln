@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis.Zamka", "Kattis.Zamk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis.Pot", "KattisPot\Kattis.Pot.csproj", "{EC17AA32-9845-4D68-9555-2FEBDE3E6D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis.Shared", "KattisShared\Kattis.Shared.csproj", "{B765B39E-D8C2-452C-9D73-9E4B5A8FDDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis.Shared", "KattisShared\Kattis.Shared.csproj", "{B765B39E-D8C2-452C-9D73-9E4B5A8FDDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis.StackingCups", "Kattis.StackingCups\Kattis.StackingCups.csproj", "{025B3F1C-9ABF-4CA8-84DE-0E97507FF507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{B765B39E-D8C2-452C-9D73-9E4B5A8FDDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B765B39E-D8C2-452C-9D73-9E4B5A8FDDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B765B39E-D8C2-452C-9D73-9E4B5A8FDDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025B3F1C-9ABF-4CA8-84DE-0E97507FF507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025B3F1C-9ABF-4CA8-84DE-0E97507FF507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025B3F1C-9ABF-4CA8-84DE-0E97507FF507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025B3F1C-9ABF-4CA8-84DE-0E97507FF507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
