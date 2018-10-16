@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 
 namespace Kattis.MatrixInversion
@@ -13,13 +13,25 @@ namespace Kattis.MatrixInversion
             int b;
             int c;
             int d;
+            byte testCases = 0;
    
-            while(true)
-            {
+            while(testCases < 5)
+            {   
+                bool continueRead = scan.HasNext();
+                if (continueRead == false){
+                    Environment.Exit(0);
+                }
+                // read numbers
                 a = scan.NextInt();
                 b = scan.NextInt();
                 c = scan.NextInt();
                 d = scan.NextInt();
+
+                // read empty line
+                string emptyLine = Console.ReadLine();
+                if (emptyLine == ""){
+                    testCases +=1;
+                }
 
                 int determinant = (a * d) - (b * c);
 
@@ -35,9 +47,9 @@ namespace Kattis.MatrixInversion
                     Console.WriteLine($"{newC} {newD}");
 
                 }
-
-                Console.ReadKey();
             }
+
+            Environment.Exit(0);
         }
     }
 
