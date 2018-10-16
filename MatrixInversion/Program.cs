@@ -6,7 +6,7 @@ namespace Kattis.MatrixInversion
     class Program
     {
         static void Main(string[] args)
-        {  
+        {
             Scanner scan = new Scanner();
             byte caseNumber = 0;
             int a;
@@ -14,11 +14,12 @@ namespace Kattis.MatrixInversion
             int c;
             int d;
             byte testCases = 0;
-   
-            while(testCases < 5)
-            {   
+
+            while (testCases < 5)
+            {
                 bool continueRead = scan.HasNext();
-                if (continueRead == false){
+                if (continueRead == false)
+                {
                     Environment.Exit(0);
                 }
                 // read numbers
@@ -29,8 +30,9 @@ namespace Kattis.MatrixInversion
 
                 // read empty line
                 string emptyLine = Console.ReadLine();
-                if (emptyLine == ""){
-                    testCases +=1;
+                if (emptyLine == "")
+                {
+                    testCases += 1;
                 }
 
                 int determinant = (a * d) - (b * c);
