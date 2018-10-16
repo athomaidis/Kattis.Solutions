@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MatrixInversion
+namespace Kattis.MatrixInversion
 {
     class Program
     {
